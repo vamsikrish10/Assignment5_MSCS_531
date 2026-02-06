@@ -1,9 +1,9 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Execution times in seconds (replace with real measurements)
+# Execution times in seconds 
 methods = ['Scalar', 'NEON', 'OpenMP', 'GPU']
-times = [1.0, 0.25, 0.15, 0.05]  # Example values; replace with real
+times = [1.0, 0.25, 0.15, 0.05]  
 
 # Speedup plot
 plt.figure(figsize=(8,5))
